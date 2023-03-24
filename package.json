@@ -1,0 +1,23 @@
+{
+  "name": "todo-app-nobundler-node",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "NODE_ENV=production tsc -p src/tsconfig.sw.json -p src/tsconfig.main.json && node --no-warnings scripts/generateHtml.mjs",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@jspm/generator": "^1.1.3",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "license": "See LICENCE",
+  "packageManager": "yarn@3.5.0",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}

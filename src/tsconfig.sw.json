@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "../public",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "lib": ["ESNext", "WebWorker"]
+  },
+  "include": ["serviceWorker.ts"]
+}

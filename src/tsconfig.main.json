@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "../public",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": ["main.tsx", "appLoader.ts"]
+}
