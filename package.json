@@ -2,7 +2,7 @@
   "name": "todo-app-nobundler-node",
   "version": "0.0.1",
   "scripts": {
-    "build": "NODE_ENV=production tsc -p src/tsconfig.sw.json -p src/tsconfig.main.json && node --no-warnings scripts/generateHtml.mjs",
+    "build": "NODE_ENV=production tsc -p src/tsconfig.sw.json && tsc -p src/tsconfig.main.json && node --no-warnings scripts/generateHtml.mjs",
     "start": "node server.js"
   },
   "dependencies": {
